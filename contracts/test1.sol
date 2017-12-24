@@ -1,11 +1,12 @@
 pragma solidity ^0.4.18;
 
-contract Sum {
+contract Mul {
 	uint a = 2;
 	uint b = 17;
-	function sum() constant returns(uint sum){
-		sum = a + b;
-		return sum;
+	function mul() constant returns(uint mul){
+		mul = a + b;
+		return mul;
 	}
+	
 }
 
